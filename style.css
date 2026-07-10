@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgb(2, 2, 112);
+    background-color: rgb(2, 2, 97);
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -181,7 +181,7 @@ section i {
 .card1, .card3 {
     padding: 20px;
     color: white;
-    border: 1px solid rgba(0, 255, 255, 0.342);
+    border: 1px solid rgba(0, 255, 255, 0.247);
     border-radius: 15px;
     background-color: rgb(8, 8, 117);
     margin: 15px;
@@ -243,7 +243,7 @@ section i {
     
 }
 .mod, .mod2 {
-    border: 1px solid aqua;
+    border: 1px solid rgba(0, 255, 255, 0.267);
     border-radius: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -267,14 +267,14 @@ section i {
     margin-top:-20px;
 }
 
-.mod i, .mod2 i {
+.mod i{
     margin-top: 10px;
 }
 
 
 
 .mod2 {
-    display: block;
+    display: inline-block;
 }
 
 .mod2 h1 {
@@ -283,10 +283,16 @@ section i {
     margin-top: 10px;
 }
 
-.mod2 p {
-    display: inline-block;
-    padding-top: 0;
+.mod2 li {
+    display: inline;
+    padding: 5px;
+    margin-left: 10px;
     color: white;
+    padding: -15px;
+}
+
+.mod2 li #check {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0));
 }
 
 .mod3, .mod4 {
