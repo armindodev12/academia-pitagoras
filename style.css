@@ -235,12 +235,19 @@ section i {
     display: inline-block;
     margin-top: 15px;
     margin-top: 40px;
-    background: linear-gradient(to bottom, rgb(4, 4, 82), rgb(4, 4, 77), rgba(0, 66, 128, 0.466));
+    padding-bottom: 15px;
+    background-color: rgb(3, 55, 99);
 }
 
 .mod1 h1 {
     color: white;
     
+}
+
+.mod1 #mod1, .mod1 #mod2, .mod1 #vantagem {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0));
+    background-color: rgb(6, 6, 97);
+    color: rgb(40, 40, 204);
 }
 .mod, .mod2 {
     border: 1px solid rgba(0, 255, 255, 0.267);
@@ -272,11 +279,6 @@ section i {
 }
 
 
-
-.mod2 {
-    display: inline-block;
-}
-
 .mod2 h1 {
     color: white;
     font-size: 20px;
@@ -284,15 +286,18 @@ section i {
 }
 
 .mod2 li {
-    display: inline;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     color: white;
     padding: -15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .mod2 li #check {
     background: linear-gradient(to right, rgba(0, 0, 255, 0));
+    color: rgb(71, 71, 199);
 }
 
 .mod3, .mod4 {
@@ -301,14 +306,13 @@ section i {
 
 footer {
     padding-bottom: 1px;
-    margin-top: 20px;
     display: block;
-    background-color: rgb(6, 146, 6);
+    background-color: rgb(22, 26, 78);
 }
 
 footer h1 {
     padding-top: 15px;
-    margin: 20px;
+    padding-left: 20px;
     color: white;
     font-size: 25px;
 }
@@ -373,7 +377,7 @@ footer .loc, footer .cell {
 
 footer .site {
     padding: 8px;
-    background-color: rgb(11, 117, 38);
+    background-color: rgb(11, 36, 117);
     margin: 30px;
     text-align: center;
     border-radius: 15px;
