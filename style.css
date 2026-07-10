@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgb(1, 1, 99);
+    background-color: rgb(2, 2, 112);
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -162,7 +162,7 @@ main {
     font-size: 20px;
 }
 
-.what h1 {
+.what h1, .mod h1 {
     color: white;
     font-size: 22px;
     padding: 10px;
@@ -172,12 +172,13 @@ main {
 section i {
     color: rgb(0, 204, 255);
     padding: 12px;
+    margin-bottom: 20px;
     background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
     border-radius: 6px;
     margin-left: 10px;
 }
 
-.card1 {
+.card1, .card3 {
     padding: 20px;
     color: white;
     border: 1px solid rgba(0, 255, 255, 0.342);
@@ -187,13 +188,13 @@ section i {
     box-shadow: 1px 1px 1px rgba(87, 87, 168, 0.411);
 }
 
-.card1 i {
+.card1 i, .card3 i {
     color: rgb(0, 204, 255);
     padding: 12px;
     background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
     border-radius: 6px;
     margin-left: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .es {
@@ -218,14 +219,157 @@ section i {
     background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
     border-radius: 6px;
     margin-left: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
-.card2 p{
+.card2 p, .card3 p{
     color: white;
     margin-bottom: 7px;
 }
 
-.card2 p a {
+.card2 p a, .card3 p a {
     text-decoration: none;
     color: aqua;
 }
+
+.mod1 {
+    display: inline-block;
+    margin-top: 15px;
+    margin-top: 40px;
+    background: linear-gradient(to bottom, rgb(4, 4, 82), rgb(4, 4, 77), rgba(0, 66, 128, 0.466));
+}
+
+.mod1 h1 {
+    color: white;
+    
+}
+.mod, .mod2 {
+    border: 1px solid aqua;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mod1 h1 {
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.mod p {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin-top: -6px;
+}
+
+.mod .desc {
+    margin-top:-20px;
+}
+
+.mod i, .mod2 i {
+    margin-top: 10px;
+}
+
+
+
+.mod2 {
+    display: block;
+}
+
+.mod2 h1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mod2 p {
+    display: inline-block;
+    padding-top: 0;
+    color: white;
+}
+
+.mod3, .mod4 {
+    margin-top: -25px;
+}
+
+footer {
+    padding-bottom: 1px;
+    margin-top: 20px;
+    display: block;
+    background-color: rgb(6, 146, 6);
+}
+
+footer h1 {
+    padding-top: 15px;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+footer h2 {
+    padding-top: 5px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+footer p {
+    margin-top: -10px;
+    color: white;
+    padding-left: 20px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(6, 213, 228);
+    font-weight: 600;
+}
+
+footer .servicos {
+    color: aqua;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+footer .admissao {
+    margin-top: 6px;
+}
+footer .links {
+    margin-top: 15px;
+    color: aqua;
+    font-weight: 600;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.info {
+    color: rgb(0, 247, 255);
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+footer #loc , footer #cell {
+    display: inline-block;
+    color: rgb(0, 255, 0);
+    background: linear-gradient(to right, rgba(0, 0, 255, 0))
+}
+
+footer .loc, footer .cell {
+    margin-top: -49px;
+    padding-left: 45px;
+}
+
+footer .site {
+    padding: 8px;
+    background-color: rgb(11, 117, 38);
+    margin: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
