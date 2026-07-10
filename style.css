@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 1px solid red;
 }
 body {
     background-color: rgb(1, 1, 99);
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 h2 {
     color: aqua;
@@ -42,7 +44,7 @@ header {
     transition: .5s;
 }
 .menu-mobile.abrir-menu {
-width: 70%;
+width: 60%;
 }
 
 .menu-mobile.abrir-menu ~ .overlay-menu{
@@ -91,10 +93,6 @@ main {
     color: white;
     flex-direction: column;
 }
-
-.ola {
-    height: 100vh;
-}
     
 .boasvindas h3 {
     padding: 20px;
@@ -104,10 +102,9 @@ main {
 }
 
 .boasvindas img {
-    width: 100px;
-    padding: 20px;
-    margin-top: 40px;
-    margin-left: 32%;
+    display: block;
+    width: 170px;
+    margin: 10px auto;
 }
 
 .boasvindas .diff {
@@ -121,6 +118,20 @@ main {
 .txt-animado {
     color: rgb(6, 248, 6);
     margin-bottom: 50px;
+}
+
+.txt-animado .insc {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(41, 201, 201);
+    margin: 15px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.txt-animado .insc a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
 }
 
 #texto{
@@ -173,8 +184,8 @@ section i {
     border: 1px solid rgba(0, 255, 255, 0.342);
     border-radius: 15px;
     background-color: rgb(8, 8, 117);
-    margin: 10px;
-    box-shadow: 1px 1px 1px rgb(87, 87, 168);
+    margin: 15px;
+    box-shadow: 1px 1px 1px rgba(87, 87, 168, 0.411);
 }
 
 .card1 i {
@@ -188,6 +199,7 @@ section i {
 
 .es {
     color: white;
+    margin-bottom: 3px;
 }
 
 .card2 {
@@ -196,8 +208,9 @@ section i {
     border: 1px solid rgba(0, 255, 255, 0.342);
     border-radius: 15px;
     background-color: rgb(8, 8, 117);
-    margin: 10px;
-    box-shadow: 1px 1px 1px rgb(87, 87, 168);
+    margin: 15px;
+    box-shadow: 0.5px 0.5px 0.5px rgba(87, 87, 168, 0.548);
+    padding-bottom: 20px;
 }
 
 .card2 i {
@@ -210,10 +223,10 @@ section i {
 }
 .card2 p{
     color: white;
+    margin-bottom: 7px;
 }
 
 .card2 p a {
     text-decoration: none;
     color: aqua;
-    margin-top: 10px;
 }
