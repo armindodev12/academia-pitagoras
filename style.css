@@ -3,8 +3,8 @@
     padding: 0;
 }
 body {
-    background-color: rgb(2, 2, 97);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 2, 56);
+    font-family: 'Outfit', sans-serif;
     overflow-x: hidden;
 }
 h2 {
@@ -13,10 +13,13 @@ h2 {
     font-size: 20px;
 }
 header {
-    background-color: rgb(25, 25, 105);
+    background-color: rgba(10, 10, 80, 0.678);
     border-bottom: 1px solid rgba(0, 255, 255, 0.212);
     padding: 10px;
     display: block;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
 }
 .menu-mobile nav ul {
     list-style-type: none;
@@ -102,8 +105,9 @@ main {
 
 .boasvindas img {
     display: block;
-    width: 170px;
+    width: 120px;
     margin: 10px auto;
+    padding-top: 60px;
 }
 
 .boasvindas .diff {
@@ -173,7 +177,7 @@ section i {
     color: rgb(0, 204, 255);
     padding: 12px;
     margin-bottom: 20px;
-    background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
+    background-color: rgb(4, 4, 88);
     border-radius: 6px;
     margin-left: 10px;
 }
@@ -183,15 +187,15 @@ section i {
     color: white;
     border: 1px solid rgba(0, 255, 255, 0.247);
     border-radius: 15px;
-    background-color: rgb(8, 8, 117);
+    background-color: rgb(1, 1, 70);
     margin: 15px;
     box-shadow: 1px 1px 1px rgba(87, 87, 168, 0.411);
 }
 
 .card1 i, .card3 i {
-    color: rgb(0, 204, 255);
+    color: rgb(179, 240, 255);
     padding: 12px;
-    background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
+    background-color: rgb(6, 6, 94);
     border-radius: 6px;
     margin-left: 2px;
     margin-bottom: 15px;
@@ -207,16 +211,16 @@ section i {
     color: white;
     border: 1px solid rgba(0, 255, 255, 0.342);
     border-radius: 15px;
-    background-color: rgb(8, 8, 117);
+    background-color: rgb(2, 2, 71);
     margin: 15px;
     box-shadow: 0.5px 0.5px 0.5px rgba(87, 87, 168, 0.548);
     padding-bottom: 20px;
 }
 
 .card2 i {
-    color: rgb(0, 204, 255);
+    color: rgb(184, 234, 247);
     padding: 12px;
-    background: linear-gradient(to right, rgba(20, 160, 185, 0.699), rgb(0, 45, 128));
+    background-color: rgb(6, 6, 94);
     border-radius: 6px;
     margin-left: 2px;
     margin-bottom: 15px;
@@ -236,7 +240,7 @@ section i {
     margin-top: 15px;
     margin-top: 40px;
     padding-bottom: 15px;
-    background-color: rgb(3, 55, 99);
+    background-color: rgb(1, 9, 54);
 }
 
 .mod1 h1 {
@@ -245,11 +249,11 @@ section i {
 }
 
 .mod1 #mod1, .mod1 #mod2, .mod1 #vantagem {
-    background: linear-gradient(to right, rgba(0, 0, 255, 0));
-    background-color: rgb(6, 6, 97);
-    color: rgb(40, 40, 204);
+    background-color: rgb(6, 6, 92);
+    color: rgb(190, 229, 255);
 }
 .mod, .mod2 {
+    background-color: rgb(1, 1, 77);
     border: 1px solid rgba(0, 255, 255, 0.267);
     border-radius: 20px;
     margin-left: 20px;
@@ -297,7 +301,7 @@ section i {
 
 .mod2 li #check {
     background: linear-gradient(to right, rgba(0, 0, 255, 0));
-    color: rgb(71, 71, 199);
+    color: rgb(45, 146, 20);
 }
 
 .mod3, .mod4 {
@@ -307,7 +311,7 @@ section i {
 footer {
     padding-bottom: 1px;
     display: block;
-    background-color: rgb(22, 26, 78);
+    background-color: rgb(1, 5, 58);
 }
 
 footer h1 {
