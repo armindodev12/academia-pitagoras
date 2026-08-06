@@ -3,17 +3,17 @@
     padding: 0;
 }
 body {
-    background-color: rgb(2, 2, 56);
-    font-family: 'Outfit', sans-serif;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 h2 {
-    color: aqua;
+    color: rgb(255, 255, 255);
     padding-left: 10px;
     font-size: 20px;
 }
 header {
-    background-color: rgba(10, 10, 80, 0.678);
+    background-color: blue;
     border-bottom: 1px solid rgba(0, 255, 255, 0.212);
     padding: 10px;
     display: block;
@@ -100,6 +100,7 @@ main {
     padding: 20px;
     text-align: center;
     margin-top: 0;
+    color: black;
     font-size: 1.5rem;
 }
 
@@ -116,7 +117,8 @@ main {
 }
 
 .fixo{
-    color: #fff;
+    color: black;
+    font-weight: 700;
 }
 .txt-animado {
     color: rgb(6, 248, 6);
@@ -134,7 +136,7 @@ main {
 
 .txt-animado .insc a {
     text-decoration: none;
-    color: rgb(6, 45, 117);
+    color: black;
 }
 
 #texto{
@@ -158,44 +160,43 @@ main {
 }
 
 .boasvindas h4 {
-    color: white;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    color: aqua;
+    color: rgb(6, 179, 179);
     font-size: 20px;
+    font-weight: 700;
 }
 
 .what h1, .mod h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 22px;
     padding: 10px;
     display: inline;
     margin-top: 30px;
 }
 section i {
-    color: rgb(0, 204, 255);
+    color: black;
     padding: 12px;
     margin-bottom: 20px;
-    background-color: rgb(4, 4, 88);
+    background-color: rgb(7, 250, 7);
     border-radius: 6px;
     margin-left: 10px;
 }
 
 .card1, .card3 {
     padding: 20px;
-    color: white;
-    border: 1px solid rgba(0, 255, 255, 0.247);
+    color: black;
+    border: 1px solid rgba(7, 255, 7);
     border-radius: 15px;
-    background-color: rgb(1, 1, 70);
+    background-color: rgba(1, 1, 70, 0.048);
     margin: 15px;
-    box-shadow: 1px 1px 1px rgba(87, 87, 168, 0.411);
 }
 
 .card1 i, .card3 i {
-    color: rgb(179, 240, 255);
+    color: black;
     padding: 12px;
-    background-color: rgb(6, 6, 94);
+    background-color: rgb(7, 250, 7);
     border-radius: 6px;
     margin-left: 2px;
     margin-bottom: 15px;
@@ -209,24 +210,24 @@ section i {
 .card2 {
     padding: 20px;
     color: white;
-    border: 1px solid rgba(0, 255, 255, 0.342);
+    border: 1px solid rgba(7, 250, 7);
     border-radius: 15px;
-    background-color: rgb(2, 2, 71);
+    background-color: white;
     margin: 15px;
     box-shadow: 0.5px 0.5px 0.5px rgba(87, 87, 168, 0.548);
     padding-bottom: 20px;
 }
 
 .card2 i {
-    color: rgb(184, 234, 247);
+    color: black;
     padding: 12px;
-    background-color: rgb(6, 6, 94);
+    background-color: rgb(7, 250, 7);
     border-radius: 6px;
     margin-left: 2px;
     margin-bottom: 15px;
 }
 .card2 p, .card3 p{
-    color: white;
+    color: black;
     margin-bottom: 7px;
 }
 
